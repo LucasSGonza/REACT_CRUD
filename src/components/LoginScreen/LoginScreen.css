@@ -1,16 +1,20 @@
 .LoginScreen {
-    margin-top: 2%;
-    padding: 0;
-    text-align: center;
-    font-size: x-large;
-  }
-  
-  input,button {
-    margin-top: 1%;
-    font-weight: 200;
-    font-size: large;
-  }
-  
-  .span-changeScreen {
-    font-size: small;
-  }
+  display: block;
+  place-items: center;
+  text-align: center;
+  margin-top: 2%;
+  padding: 0;
+  font-size: x-large;
+}
+
+input,
+button {
+  margin-top: 1%;
+  font-weight: 200;
+  font-size: large;
+  width: 10%;
+}
+
+.span-changeScreen, .link-changeScreen {
+  font-size: small;
+}
