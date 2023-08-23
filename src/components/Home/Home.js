@@ -35,7 +35,10 @@ const Home = () => {
             <h1>Home page</h1>
             {/*<button type="button" onClick={handleRegister}>Register</button> <br></br>
             <button type="button" onClick={handleLogin}>Login</button>*/}
+
             {/*Tem que estilizar a tag Link para se tornar um 'botao'*/}
+            <Link className="link-changeScreen" to={"/login"}>Já possui cadastro? Clique aqui</Link> <br/>
+            <Link className="link-changeScreen" to={"/register"}>Não possui cadastro? Clique aqui</Link> <br></br>
         </div>
     )
 }
